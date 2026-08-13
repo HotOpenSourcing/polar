@@ -1,7 +1,7 @@
 {
   "name": "@polar-sh/orbit",
   "version": "0.1.0",
-  "description": "Orbit — Design system for Polar",
+  "description": "Orbit \u2014 Design system for Polar",
   "author": "Polar",
   "license": "Apache-2.0",
   "type": "module",
@@ -32,7 +32,7 @@
     }
   },
   "scripts": {
-    "build": "rm -rf dist && tsup",
+    "build": "node init && rm -rf dist && tsup",
     "lint": "oxfmt --check . && eslint --max-warnings 0 .",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",

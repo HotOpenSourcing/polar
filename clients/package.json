@@ -2,9 +2,9 @@
   "private": true,
   "name": "polar",
   "scripts": {
-    "build": "turbo run build --filter='!./examples/*'",
-    "dev": "turbo watch dev",
-    "dev-web": "turbo run dev --filter=web",
+    "build": "node init && turbo run build --filter='!./examples/*'",
+    "dev": "node init && turbo watch dev",
+    "dev-web": "node init && turbo run dev --filter=web",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",

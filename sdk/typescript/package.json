@@ -1,7 +1,7 @@
 {
   "name": "@polar-sh/sdk",
   "version": "0.0.0",
-  "description": "Polar SDK — A billing platform for the intelligence era",
+  "description": "Polar SDK \u2014 A billing platform for the intelligence era",
   "keywords": [
     "api",
     "polar",
@@ -88,7 +88,7 @@
     }
   },
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",

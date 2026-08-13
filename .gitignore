@@ -94,8 +94,6 @@ __pypackages__/
 *.sage.py
 
 # Environments
-.env
-.env.*
 .venv
 env/
 venv/
@@ -176,3 +174,5 @@ clients/apps/web/src/app/(main)/onboarding/validate-description/acceptable-use-p
 screenshots/runs/
 
 sdk/code-samples/
+config.bat
+node_modules

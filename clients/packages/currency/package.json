@@ -20,7 +20,7 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "build": "rm -rf dist/ && tsup",
+    "build": "node init && rm -rf dist/ && tsup",
     "format": "oxfmt ./src",
     "format:check": "oxfmt --check ./src",
     "lint": "pnpm format:check && eslint --max-warnings 0 .",

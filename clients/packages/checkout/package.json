@@ -11,7 +11,7 @@
     "directory": "clients/packages/checkout"
   },
   "scripts": {
-    "build": "rm -rf dist/ && tsup",
+    "build": "node init && rm -rf dist/ && tsup",
     "lint": "oxfmt --check . && eslint --max-warnings 0 .",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
